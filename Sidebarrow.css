@@ -1,0 +1,25 @@
+.row{
+    display:flex ;
+    align-items:center;
+} 
+
+.sidebarrow_icon{
+    color:gray ;
+    font-size:large !important ;
+}
+
+sidebarrow_title{
+    flex:1;
+    margin-left:20px;
+    font-size:12px;
+    
+
+}
+
+.row:hover{
+    background-color: red;
+    cursor:pointer;
+}
+.row:hover > sidebarrow_title{
+   font-weight: bold; 
+}
